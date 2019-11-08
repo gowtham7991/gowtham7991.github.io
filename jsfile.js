@@ -1,5 +1,5 @@
 
 
- function myfunction() {
-document.getElementById("demo").innerhtml = 'hello world!';
+function myfunction() {
+	document.getElementById("demo").innerhtml = 'hello world!';
 }
