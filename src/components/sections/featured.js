@@ -256,7 +256,7 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
+      background-color: transparent;
       border-radius: var(--border-radius);
       vertical-align: middle;
 
@@ -291,7 +291,8 @@ const StyledProject = styled.li`
     .img {
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      filter: none;
+      background: transparent;
 
       @media (max-width: 768px) {
         object-fit: cover;
@@ -322,7 +323,6 @@ const Featured = () => {
               tech
               github
               external
-              cta
             }
             html
           }

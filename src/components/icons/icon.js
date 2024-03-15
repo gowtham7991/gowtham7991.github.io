@@ -16,6 +16,8 @@ import {
   IconStar,
   IconTwitter,
 } from '@components/icons';
+import IconMail from './mail';
+import IconPhone from './phone';
 
 const Icon = ({ name }) => {
   switch (name) {
@@ -47,6 +49,10 @@ const Icon = ({ name }) => {
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'Mail':
+      return <IconMail />;
+    case 'Phone':
+      return <IconPhone />;
     default:
       return <IconExternal />;
   }
