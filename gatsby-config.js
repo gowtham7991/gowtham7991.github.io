@@ -5,7 +5,7 @@ module.exports = {
     title: 'Gowtham Potnuru',
     description:
       'Gowtham Potnuru is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: '', // No trailing slash allowed!
+    siteUrl: 'https://gowtham7991.github.io/personal-portfolio', // No trailing slash allowed!
     image: '', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
