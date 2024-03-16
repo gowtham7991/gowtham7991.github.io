@@ -142,25 +142,30 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at a{' '}
-              <a href="https://www.aboutamazon.com/">Earth's most customer centric company </a>,{' '}
-              <a href="https://www.se.com/ww/en/">leading energy and automation company</a>, and a{' '}
-              <a href="https://www.bracebridgecapital.com/">Hedge Fund Bank</a>, My main focus these
-              days is learning to build accessible, inclusive products and digital experiences and
-              making use of AI in the web.
+              Fast-forward to today, and I’ve had the privilege of working at{' '}
+              <a href="https://www.aboutamazon.com/">Earth's most customer centric company </a>, a
+              leading <a href="https://www.se.com/ww/en/">energy and automation company</a>, and{' '}
+              <a href="https://www.bracebridgecapital.com/">Hedge Fund Bank</a>. These days, my
+              primary objective is mastering the creation of accessible and inclusive products and
+              digital experiences, while harnessing the power of AI in web development.
             </p>
 
             <p>
-              I recently started working on a <a href="/">Car Pooling app </a>, for which helps
-              students to find peers to go to a common destination especially during their
-              internships and co-op experiences.
+              I recently embarked on developing a <a href="/">Carpooling app </a> aimed at assisting
+              students in connecting with fellow peers headed to common destinations, particularly
+              during internships and co-op experiences.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            {skills &&
+              skills.map((skill, i) => (
+                <li key={i} style={{ fontSize: '16px' }}>
+                  {skill}
+                </li>
+              ))}
           </ul>
         </StyledText>
 

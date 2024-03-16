@@ -60,10 +60,9 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am graduating in May 2024 and actively seeking full-time opportunities as a Software
+        I am graduating in April 2024 and actively seeking full-time opportunities as a Software
         Engineer, with interests in frontend, backend, and cloud technologies, my inbox is always
-        open. Whether you have a question or just want to say hi, I’ll try my best to get back to
-        you!
+        open. Whether you have a question or just want to say hi, I’ll get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

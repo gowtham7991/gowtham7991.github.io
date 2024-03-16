@@ -1,13 +1,10 @@
 import React from 'react';
-import { XlviLoader } from 'react-awesome-loaders';
 
 const IconLoader = () => (
   <div>
-    <XlviLoader
-      boxColors={['#EF4444', '#F59E0B', '#6366F1']}
-      desktopSize={'128px'}
-      mobileSize={'100px'}
-    />
+    <div className="spinner-border" role="status">
+      <span className="sr-only">Loading...</span>
+    </div>
   </div>
 );
 

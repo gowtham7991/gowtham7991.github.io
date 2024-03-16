@@ -2,8 +2,8 @@
 date: '3'
 title: 'Kill Doctor Lucky Game'
 cover: './kill-doctor-lucky.png'
-github: 'https://github.com/khoury-22sp-cs5010-jump/cs5010-final-project-gowtham_aashi_team'
-external: 'https://github.com/khoury-22sp-cs5010-jump/cs5010-final-project-gowtham_aashi_team'
+github: 'https://github.com/gowtham7991/mvc-desktop-game'
+external: 'https://github.com/gowtham7991/mvc-desktop-game'
 tech:
   - Java
   - Swing
